@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+.contact-form {
+    width: 45%;
+    height: 495px;
+    background-color: #EB6440;
+    border-radius: 10px;
+    padding: 20px;
+    /* Add clearfix */
+    overflow: auto;
+    justify-content: center;
+    }
+    /* .contact-form::after {
+    content: "";
+    display: table;
+    clear: both;
+    } */
+    
+    .contact-form h2 {
+    color: white;
+    text-align: center;
+    }
+    
+    .contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    
+    .contact-form label{
+    color:whitesmoke;
+    font-weight:900;
+    }
+    
+    .contact-form input, .contact-form textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    }
+    
+    .contact-form #submit{
+    background-color: #16FF00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: bold;
+    margin-right: 5px;
+    }
+    
+    .contact-form #clear{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: auto;
+    float: right;
+    }
+    
+    .contact-form button {
+    float: right;
+  
+    }
+    .fa-facebook {
+        font-size: 25px; /* Change the size of the Facebook icon */
+        color: blue; /* Change the color of the Facebook icon */
+      }
+      
+      .fa-tiktok {
+        font-size: 25px; /* Change the size of the Tiktok icon */
+        color: black; /* Change the color of the Tiktok icon */
+      }
+      
+      .fa-instagram {
+        font-size: 25px; /* Change the size of the Instagram icon */
+        color: #FF0032; /* Change the color of the Instagram icon */
+      }
+      
+      .fa-twitter {
+        font-size: 25px; /* Change the size of the Twitter icon */
+        color: #146C94; /* Change the color of the Twitter icon */
+      }
+      .contact-info a {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .contact-info{
+        background-color: #FFBF9B;
+        text-align: center;
+        border-radius: 10px;
+        width: 40%;
+        height: 495px;
+
+      }
+      .contact-info label {
+        text-align: left;
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 25px;
+            font-weight: bold;
+          
+      }
+      .contact-info input {
+      width: 100%;
+      max-width: 455px;
+      font-weight: bold;
+      }
+      #Contact-Us {
+        margin-top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:25px;
+      }
+      .yortclub-schedule {
+        margin: 0 auto;
+        text-align: center;
+        
+        background-color: gray;
+        border-radius: 10px;
+        height: 250px;
+        width: 1000px;
+        padding: 20px;
+      }
+      .yortclub-schedule h6{
+        color:whitesmoke;
+        font-weight: bold;
+        font-size: larger;
+      }
+      .yortclub-schedule h5{
+        font-weight: bold;
+        font-size: 35px;
+      }
+      @media only screen and (max-width: 1200px) {
+        .yortclub-schedule {
+          width: 800px;
+        }
+      }
+      
+      @media only screen and (max-width: 800px) {
+        .yortclub-schedule {
+          width: 600px;
+        }
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .yortclub-schedule {
+          width: 400px;
+        }
+      }
+      
+      @media only screen and (max-width: 400px) {
+        .yortclub-schedule {
+          width: 250px;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .yortclub-schedule h6 {
+          font-size: 14px;
+          line-height: 1.2;
+        }
+        
+        .yortclub-schedule h5 {
+          font-size: 28px;
+          line-height: 1.2;
+        }
+      }      
+
+
+
+      @media screen and (max-width: 768px) {
+        .contact-info input {
+          max-width: 100%;
+          font-size: 11px;
+        }
+        .contact-info label {
+          margin-left: 0px;
+        }
+      }
